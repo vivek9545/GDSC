@@ -1,0 +1,88 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    height: 780px;
+}
+
+body svg {
+    width: 100%;
+}
+
+main {
+    width: 450px;
+    height: 620px;
+    border-radius: 20px;
+    margin: 0 auto;
+    color: black;
+    background-color: white;
+    position: relative;
+    top: 80px;
+    overflow: hidden;
+}
+
+main .others {
+    margin-top: 35px;
+}
+
+main .text {
+    padding: 0px 50px;
+    margin-bottom: 25px;
+}
+
+main .text h3 {
+    font-weight: bolder;
+}
+
+main .song {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: 0px 12%;
+    margin-bottom: 42px;
+}
+
+main .song>div {
+    margin: auto;
+}
+
+main .song a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+#song-faint {
+    opacity: 0.7;
+}
+
+#cancel-order {
+    opacity: 0.5;
+}
+
+#cancel-order:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+main .button a {
+    background-color: #382ae1;
+    box-shadow: 3px 17px 20px #c9c4ef;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 95px;
+    margin: 20px 0px;
+    text-decoration: none;
+}
+
+main .button a:hover {
+    background-color: #766CF1;
+}
+
+main .others>p {
+    margin-top: 40px;
+}
